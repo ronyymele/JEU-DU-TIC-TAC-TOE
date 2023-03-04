@@ -1,4 +1,5 @@
-bordure {
+
+.bordure {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +10,8 @@ bordure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 3rem;
+    font-family: unset;
+    margin: 5rem;
     background-color: whitesmoke; 
        
   }
@@ -21,6 +22,7 @@ bordure {
     grid-template-rows: 7rem 7rem 7rem;
     gap: 1rem;
     margin: 2rem auto;
+    
   }
   
   .block {
@@ -35,7 +37,7 @@ bordure {
   
   p {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 4rem;
   }
   
   p:first-of-type {
