@@ -41,8 +41,8 @@ const jouerBlock = (e) => {
 
   if (isVctoire === true) {
     
-
-    alert("Le gagnant est le joueur " + etat.joueurEnCours);
+     // cette commande indique quel est le joueur qui a gagné
+    alert("FELICITATION Le gagnant est le joueur " + etat.joueurEnCours);
 
 
 
